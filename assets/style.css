@@ -1,0 +1,26 @@
+*{ margin: 0; padding: 0; outline: none; }
+
+body{ text-align: center; margin-left: 100px;background-color: black; display: flex;}
+
+.main{ margin-top: 50px; width: 300px; background: #0e1924; border-radius: 20px; }
+
+.screen{ height: 70px; width: 245px; background-color: #b9bac4; border-radius: 10px; margin-top: 10px; padding: 10px 10px; 
+	color: black; font-size: 30px; font-weight: bold; text-align: right;}
+
+.buttons{ border: 1px solid #3e3e40; padding: 10px 0px; margin: 15px; border-bottom-left-radius: 15px; 
+	border-bottom-right-radius: 15px; border-top-right-radius: 10px; border-top-left-radius: 10px} 
+
+#equal{ width: 126px; border: 2px solid black; }
+
+#allClear{ width: 125px;}
+
+.btn{width: 60px; height: 65px;margin: 1px; font-size: 22px; line-height: 55px; font-weight: bold;
+	background: #9e9d9d;border: 1px solid black; border-radius: 100%; cursor: pointer;}
+
+.btn:hover{ opacity: 0.8; transition: .9s}
+
+.btn:active{ opacity: 0.2}
+
+p{ position: absolute; color: white; top: 600px; right: 150px; font-size: 1.2em; font-family: Times New Roman;}
+
+p:hover{ transition: .5s; color: #3e3e40; cursor: pointer; }
